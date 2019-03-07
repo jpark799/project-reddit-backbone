@@ -1,6 +1,6 @@
 var PostModel = Backbone.Model.extend({
   defaults: {
-    user:  '',
-    text:   ''
+    user: 'Aaron',
+    text: 'Hello!'
   }
 });
