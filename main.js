@@ -4,3 +4,8 @@ var PostModel = Backbone.Model.extend({
     text: 'Hello!'
   }
 });
+
+var pm1 = new PostModel();
+
+console.log(pm1);
+console.log(pm1.attributes);
